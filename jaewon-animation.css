@@ -1,0 +1,9 @@
+.jaewon-character {
+  height: var(--character-height, 360px);
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 740 / 1310;
+  opacity: 0;
+}
+.jaewon-character.is-ready { opacity: 1; }
+.jaewon-character > svg { display: block; width: 100%; height: 100%; overflow: hidden; pointer-events: none; }

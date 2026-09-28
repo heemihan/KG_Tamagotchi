@@ -1,0 +1,14 @@
+.jaewon-gif {
+  display: block;
+  width: min(100%, var(--character-width, 462px));
+  max-width: 100%;
+  aspect-ratio: 462 / 560;
+}
+
+.jaewon-gif-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  image-rendering: auto;
+  pointer-events: none;
+}
